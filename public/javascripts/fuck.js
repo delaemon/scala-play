@@ -1,0 +1,1 @@
+alert("fuck'n Xmas!!")
