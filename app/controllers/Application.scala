@@ -17,7 +17,7 @@ class Application extends Controller {
     val data = selectCountries().map(row =>
       row[Integer]("id") -> row[String]("name")
     ).toList
-    Ok(data[0].name)
+    Ok("ABC")
   }
 
   def page = Action {
